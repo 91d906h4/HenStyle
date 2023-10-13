@@ -1,0 +1,138 @@
+/*
+    Use the following command to compile SCSS file:
+
+        npm run sass .\henstyle.scss -o .]henstyle.css
+*/
+/* Import variables */
+/* Font style */
+/* Border */
+/* Padding */
+/* Colors */
+/* Break points */
+/* Basic button style */
+.btn {
+  /* Disply */
+  display: inline-block;
+  padding: 0.375rem 0.75rem;
+  /* Font */
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5;
+  /* Border */
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  /* Color */
+  color: #575c62;
+  background-color: transparent;
+}
+.btn:hover {
+  transition-duration: 350ms;
+  filter: brightness(110%);
+  cursor: pointer;
+}
+
+/* Button background color */
+.btn-primary {
+  background-color: #626ED4;
+  color: white;
+}
+
+.btn-secondary {
+  background-color: #343549;
+  color: white;
+}
+
+.btn-success {
+  background-color: #2AA39A;
+  color: white;
+}
+
+.btn-danger {
+  background-color: #EC4561;
+  color: white;
+}
+
+.btn-warning {
+  background-color: #F8B425;
+  color: white;
+}
+
+.btn-info {
+  background-color: #38A5F8;
+  color: white;
+}
+
+.btn-light {
+  background-color: #f8f8fa;
+  color: white;
+}
+
+.btn-dark {
+  background-color: #575c62;
+  color: white;
+}
+
+/* Import variables */
+.alt {
+  /* Disply */
+  display: inline-block;
+  padding: 0.375rem 0.75rem;
+  width: 100%;
+  /* Font */
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5;
+  /* Border */
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  /* Color */
+  color: #575c62;
+  background-color: transparent;
+}
+
+/* Alert background color */
+.alt-primary {
+  background-color: #9ec5fe;
+  color: #2b2f32;
+}
+
+.alt-secondary {
+  background-color: #e2e3e5;
+  color: #2b2f32;
+}
+
+.alt-success {
+  background-color: #d1e7dd;
+  color: #2b2f32;
+}
+
+.alt-danger {
+  background-color: #f8d7da;
+  color: #2b2f32;
+}
+
+.alt-warning {
+  background-color: #fff3cd;
+  color: #2b2f32;
+}
+
+.alt-info {
+  background-color: #cff4fc;
+  color: #2b2f32;
+}
+
+.alt-light {
+  background-color: #fcfcfd;
+  color: #2b2f32;
+}
+
+.alt-dark {
+  background-color: #ced4da;
+  color: #2b2f32;
+}
+
+body {
+  margin: 0;
+}
+
+/*# sourceMappingURL=henstyle.css.map */

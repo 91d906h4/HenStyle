@@ -1,0 +1,36 @@
+/* Import variables */
+@use "../variable" as *;
+
+/* Basic button style */
+.btn {
+    /* Disply */
+    display: inline-block;
+    padding: $padding;
+
+    /* Font */
+    font-weight: $font-weight;
+    font-size: $font-size;
+    line-height: $line-height;
+
+    /* Border */
+    border: $border;
+    border-radius: $border-radius;
+
+    /* Color */
+    color: $color-dark;
+    background-color: transparent;
+
+    &:hover {
+        transition-duration: 350ms;
+        filter: brightness(110%);
+        cursor: pointer;
+    }
+}
+
+/* Button background color */
+@each $name, $color in $colors {
+    .btn-#{$name} {
+        background-color: $color;
+        color: white;
+    }
+}

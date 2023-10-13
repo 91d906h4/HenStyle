@@ -1,0 +1,62 @@
+/* Font style */
+$font-size: 1rem;
+$font-weight: 400;
+$line-height: 1.5;
+
+/* Border */
+$border: 1px solid transparent;
+$border-radius: .25rem;
+
+/* Padding */
+$padding: .375rem .75rem;
+
+/* Colors */
+$color-primary : #626ED4;
+$color-secondary : #343549;
+$color-success: #2AA39A;
+$color-danger: #EC4561;
+$color-warning: #F8B425;
+$color-info: #38A5F8;
+$color-light: #f8f8fa;
+$color-dark: #575c62;
+
+$color-light-primary: #9ec5fe;
+$color-light-secondary: #e2e3e5;
+$color-light-success: #d1e7dd;
+$color-light-danger: #f8d7da;
+$color-light-warning: #fff3cd;
+$color-light-info: #cff4fc;
+$color-light-light: #fcfcfd;
+$color-light-dark: #ced4da;
+
+$colors: (
+    primary : #626ED4,
+    secondary : #343549,
+    success: #2AA39A,
+    danger: #EC4561,
+    warning: #F8B425,
+    info: #38A5F8,
+    light: #f8f8fa,
+    dark: #575c62
+);
+
+$colors-light: (
+    primary: #9ec5fe,
+    secondary: #e2e3e5,
+    success: #d1e7dd,
+    danger: #f8d7da,
+    warning: #fff3cd,
+    info: #cff4fc,
+    light: #fcfcfd,
+    dark: #ced4da
+);
+
+/* Break points */
+$breakpoints: (
+    xs: 0,
+    sm: 576px,
+    md: 768px,
+    lg: 992px,
+    xl: 1200px,
+    xxl: 1400px
+);
