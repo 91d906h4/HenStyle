@@ -13,8 +13,7 @@ Layout:
 
     1. Break Point
     2. Container
-    3. Grid
-    4. Column
+    3. Grid (Row, Col)
 
 Component:
 
