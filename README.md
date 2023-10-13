@@ -79,6 +79,56 @@ Now we are going to build a grid with 6 rows and 3 elements with 1 columns, 2 co
 </div>
 ```
 
+---
+
+### Size
+
+#### Width & Height
+
+Use class `.w-{value}` and `.h-{value}` to specify the width and height of elements.
+
+#### Valeus
+
+The legal values are `25`, `50`, `75`, `100`, and `auto`.
+
+#### Example
+
+```html
+<div class="w-25">Width 25%</div>
+<div class="w-50">Width 50%</div>
+<div class="w-75">Width 75%</div>
+<div class="w-100">Width 100%</div>
+<div class="w-auto">Width auto</div>
+
+<div class="h-25">Height 25%</div>
+<div class="h-50">Height50%</div>
+<div class="h-75">Height 75%</div>
+<div class="h-100">Height 100%</div>
+<div class="h-auto">Height auto</div>
+```
+
+#### Margin & Padding
+
+Use class `.m-{value}` and `.p-{value}` to specify the margin and padding of the element.
+
+And you can alos use `.mt-` (`.pt-`), `.mb-` (`.pb-`), `.mr`, `.ml`, `.mx-`, and `.my-` to specify the `margin-top` (`.padding-top`), `margin-bottom`, etc.
+
+#### Values
+
+The following are the legal values.
+
+| Values |         |
+| ------ | ------- |
+| `0`    | 0       |
+| `1`    | 0.25rem |
+| `2`    | 0.5rem  |
+| `3`    | 1rem    |
+| `4`    | 1.5rem  |
+| `5`    | 2rem    |
+| `6`    | 3rem    |
+| `auto` | auto    |
+
+
 ## Component
 
 ### Badge
@@ -316,32 +366,6 @@ The legal values are `static`, `relative`, `absolute`, `fixed`, and `sticky`.
 <div class="position-absolute">...</div>
 <div class="position-fixed">...</div>
 <div class="position-sticky">...</div>
-```
-
----
-
-### Width & Height
-
-Use class `.w-{value}` and `.h-{value}` to specify the width and height of elements.
-
-#### Valeus
-
-The legal values are `25`, `50`, `75`, `100`, and `auto`.
-
-#### Example
-
-```html
-<div class="w-25">Width 25%</div>
-<div class="w-50">Width 50%</div>
-<div class="w-75">Width 75%</div>
-<div class="w-100">Width 100%</div>
-<div class="w-auto">Width auto</div>
-
-<div class="h-25">Height 25%</div>
-<div class="h-50">Height50%</div>
-<div class="h-75">Height 75%</div>
-<div class="h-100">Height 100%</div>
-<div class="h-auto">Height auto</div>
 ```
 
 ---

@@ -1,0 +1,12 @@
+@use "../variable" as *;
+
+.footer {
+    /* Box */
+    padding: 1rem;
+}
+
+@each $index, $color in $colors {
+    .footer-#{$index} {
+        background-color: $color;
+    }
+}

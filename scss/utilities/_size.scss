@@ -1,8 +1,20 @@
+/* Variables */
 $sizes: (
     25: 25%,
     50: 50%,
     75: 75%,
     100: 100%,
+    auto: auto
+);
+
+$spacers: (
+    0: 0,
+    1: .25rem,
+    2: .5rem,
+    3: 1rem,
+    4: 1.5rem,
+    5: 2rem,
+    6: 3rem,
     auto: auto
 );
 
@@ -13,5 +25,65 @@ $sizes: (
 
     .h-#{$index} {
         height: $size;
+    }
+}
+
+@each $index, $spacer in $spacers {
+    /* Margin */
+    .m-#{$index} {
+        margin: $spacer !important;
+    }
+
+    .mt-#{$index} {
+        margin-top: $spacer !important;
+    }
+
+    .mb-#{$index} {
+        margin-bottom: $spacer !important;
+    }
+
+    .mr-#{$index} {
+        margin-right: $spacer !important;
+    }
+
+    .ml-#{$index} {
+        margin-left: $spacer !important;
+    }
+
+    .mx-#{$index} {
+        margin: 0 $spacer !important;
+    }
+
+    .my-#{$index} {
+        margin: $spacer 0 !important;
+    }
+
+    /* Padding */
+    .p-#{$index} {
+        padding: $spacer !important;
+    }
+
+    .pt-#{$index} {
+        padding-top: $spacer !important;
+    }
+
+    .pb-#{$index} {
+        padding-bottom: $spacer !important;
+    }
+
+    .pr-#{$index} {
+        padding-right: $spacer !important;
+    }
+
+    .pl-#{$index} {
+        padding-left: $spacer !important;
+    }
+
+    .px-#{$index} {
+        padding: 0 $spacer !important;
+    }
+
+    .py-#{$index} {
+        padding: $spacer 0 !important;
     }
 }
