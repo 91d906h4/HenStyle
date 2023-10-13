@@ -24,7 +24,7 @@ There are 8 colors in HenStyle.css.
 - ![#38A5F8](https://via.placeholder.com/15/38A5F8/000000?text=+) `Info`
 - ![#f8f8fa](https://via.placeholder.com/15/f8f8fa/000000?text=+) `Light`
 - ![#343549](https://via.placeholder.com/15/343549/000000?text=+) `Dark`
-## Usage
+## Component
 
 ### Containers
 
