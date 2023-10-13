@@ -376,7 +376,7 @@ Use class `.visible` or `.invisible` to specify whether the element can be seen 
 
 ---
 
-# Z-Index
+### Z-Index
 
 Use class `.z-{value}` to specify the z-index of elemetns.
 
