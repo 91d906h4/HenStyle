@@ -1,17 +1,22 @@
-/*
-    Use the following command to compile SCSS file:
+@use "./reset.scss";
+@use "./variable" as *;
 
-        npm run sass .\henstyle.scss -o .]henstyle.css
-*/
-
-@use "./component/button";
 @use "./component/alert";
+@use "./component/button";
+
+@use "./layout/grid";
+@use "./layout/container.scss";
 
 body {
     margin: 0;
 }
 
 * {
+    /* Font */
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+
     /* Set box-sizing to border-box */
     box-sizing: border-box;
     -moz-box-sizing: border-box;

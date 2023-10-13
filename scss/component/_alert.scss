@@ -1,19 +1,16 @@
-/* Import variables */
 @use "../variable" as *;
 
-.alt {
+/* Basic alert style */
+.alert {
     /* Disply */
     display: inline-block;
-    padding: $padding;
-    width: 100%;
 
-    /* Font */
-    font-weight: $font-weight;
-    font-size: $font-size;
-    line-height: $line-height;
+    /* Box */
+    width: 100%;
+    padding: 1rem;
+    border: $border;
 
     /* Border */
-    border: $border;
     border-radius: $border-radius;
 
     /* Color */
@@ -23,7 +20,7 @@
 
 /* Alert background color */
 @each $name, $color in $colors-light {
-    .alt-#{$name} {
+    .alert-#{$name} {
         background-color: $color;
         color: #2b2f32;
     }

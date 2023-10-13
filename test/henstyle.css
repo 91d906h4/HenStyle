@@ -1,26 +1,202 @@
-/*
-    Use the following command to compile SCSS file:
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
 
-        npm run sass .\henstyle.scss -o .]henstyle.css
-*/
-/* Import variables */
-/* Font style */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
 /* Border */
-/* Padding */
 /* Colors */
 /* Break points */
+/* Basic alert style */
+.alert {
+  /* Disply */
+  display: inline-block;
+  /* Box */
+  width: 100%;
+  padding: 1rem;
+  border: 1px solid transparent;
+  /* Border */
+  border-radius: 0.375rem;
+  /* Color */
+  color: #575c62;
+  background-color: transparent;
+}
+
+/* Alert background color */
+.alert-primary {
+  background-color: #9ec5fe;
+  color: #2b2f32;
+}
+
+.alert-secondary {
+  background-color: #e2e3e5;
+  color: #2b2f32;
+}
+
+.alert-success {
+  background-color: #d1e7dd;
+  color: #2b2f32;
+}
+
+.alert-danger {
+  background-color: #f8d7da;
+  color: #2b2f32;
+}
+
+.alert-warning {
+  background-color: #fff3cd;
+  color: #2b2f32;
+}
+
+.alert-info {
+  background-color: #cff4fc;
+  color: #2b2f32;
+}
+
+.alert-light {
+  background-color: #fcfcfd;
+  color: #2b2f32;
+}
+
+.alert-dark {
+  background-color: #ced4da;
+  color: #2b2f32;
+}
+
 /* Basic button style */
 .btn {
   /* Disply */
   display: inline-block;
+  /* Box */
+  margin: 0.25rem 0.125rem;
   padding: 0.375rem 0.75rem;
-  /* Font */
-  font-weight: 400;
-  font-size: 1rem;
-  line-height: 1.5;
-  /* Border */
   border: 1px solid transparent;
-  border-radius: 0.25rem;
+  /* Border */
+  border-radius: 0.375rem;
   /* Color */
   color: #575c62;
   background-color: transparent;
@@ -72,63 +248,209 @@
   color: white;
 }
 
-/* Import variables */
-.alt {
-  /* Disply */
-  display: inline-block;
-  padding: 0.375rem 0.75rem;
+.row {
+  /* Display */
+  display: grid;
+  justify-content: center;
+  /* Grid */
+  grid-template-columns: repeat(12, 1fr);
+  /* Grid */
+  gap: 1rem 1rem;
+}
+
+.col {
+  grid-column: span 1;
+}
+
+.row-1 {
+  grid-template-columns: repeat(1, 1fr);
+}
+
+.col-1 {
+  grid-column: span 1;
+}
+
+.row-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.col-2 {
+  grid-column: span 2;
+}
+
+.row-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.col-3 {
+  grid-column: span 3;
+}
+
+.row-4 {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.col-4 {
+  grid-column: span 4;
+}
+
+.row-5 {
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.col-5 {
+  grid-column: span 5;
+}
+
+.row-6 {
+  grid-template-columns: repeat(6, 1fr);
+}
+
+.col-6 {
+  grid-column: span 6;
+}
+
+.row-7 {
+  grid-template-columns: repeat(7, 1fr);
+}
+
+.col-7 {
+  grid-column: span 7;
+}
+
+.row-8 {
+  grid-template-columns: repeat(8, 1fr);
+}
+
+.col-8 {
+  grid-column: span 8;
+}
+
+.row-9 {
+  grid-template-columns: repeat(9, 1fr);
+}
+
+.col-9 {
+  grid-column: span 9;
+}
+
+.row-10 {
+  grid-template-columns: repeat(10, 1fr);
+}
+
+.col-10 {
+  grid-column: span 10;
+}
+
+.row-11 {
+  grid-template-columns: repeat(11, 1fr);
+}
+
+.col-11 {
+  grid-column: span 11;
+}
+
+.row-12 {
+  grid-template-columns: repeat(12, 1fr);
+}
+
+.col-12 {
+  grid-column: span 12;
+}
+
+/* https://getbootstrap.jp/docs/5.3/layout/containers/ */
+.container-sm {
+  /* Display */
+  display: block;
+  /* Box */
+  width: 540px;
+  margin: 0 auto;
+}
+
+@media (min-width: 576px) {
+  .container {
+    width: 540px;
+  }
+}
+@media (max-width: 576px) {
+  .container-sm {
+    width: 100%;
+  }
+}
+.container-md {
+  /* Display */
+  display: block;
+  /* Box */
+  width: 720px;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 720px;
+  }
+}
+@media (max-width: 768px) {
+  .container-md {
+    width: 100%;
+  }
+}
+.container-lg {
+  /* Display */
+  display: block;
+  /* Box */
+  width: 960px;
+  margin: 0 auto;
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 960px;
+  }
+}
+@media (max-width: 992px) {
+  .container-lg {
+    width: 100%;
+  }
+}
+.container-xl {
+  /* Display */
+  display: block;
+  /* Box */
+  width: 1140px;
+  margin: 0 auto;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1140px;
+  }
+}
+@media (max-width: 1200px) {
+  .container-xl {
+    width: 100%;
+  }
+}
+.container-xxl {
+  /* Display */
+  display: block;
+  /* Box */
+  width: 1320px;
+  margin: 0 auto;
+}
+
+@media (min-width: 1400px) {
+  .container {
+    width: 1320px;
+  }
+}
+@media (max-width: 1400px) {
+  .container-xxl {
+    width: 100%;
+  }
+}
+.container-fluid {
   width: 100%;
-  /* Font */
-  font-weight: 400;
-  font-size: 1rem;
-  line-height: 1.5;
-  /* Border */
-  border: 1px solid transparent;
-  border-radius: 0.25rem;
-  /* Color */
-  color: #575c62;
-  background-color: transparent;
-}
-
-/* Alert background color */
-.alt-primary {
-  background-color: #9ec5fe;
-  color: #2b2f32;
-}
-
-.alt-secondary {
-  background-color: #e2e3e5;
-  color: #2b2f32;
-}
-
-.alt-success {
-  background-color: #d1e7dd;
-  color: #2b2f32;
-}
-
-.alt-danger {
-  background-color: #f8d7da;
-  color: #2b2f32;
-}
-
-.alt-warning {
-  background-color: #fff3cd;
-  color: #2b2f32;
-}
-
-.alt-info {
-  background-color: #cff4fc;
-  color: #2b2f32;
-}
-
-.alt-light {
-  background-color: #fcfcfd;
-  color: #2b2f32;
-}
-
-.alt-dark {
-  background-color: #ced4da;
-  color: #2b2f32;
 }
 
 body {
@@ -136,6 +458,10 @@ body {
 }
 
 * {
+  /* Font */
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
   /* Set box-sizing to border-box */
   box-sizing: border-box;
   -moz-box-sizing: border-box;

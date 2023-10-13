@@ -1,0 +1,25 @@
+.row {
+    /* Display */
+    display: grid;
+    justify-content: center;
+
+    /* Grid */
+    grid-template-columns: repeat(12, 1fr);
+
+    /* Grid */
+    gap: 1rem 1rem;
+}
+
+.col {
+    grid-column: span 1;
+}
+
+@for $i from 1 through 12 {
+    .row-#{$i} {
+        grid-template-columns: repeat($i, 1fr);
+    }
+
+    .col-#{$i} {
+        grid-column: span $i;
+    }
+}

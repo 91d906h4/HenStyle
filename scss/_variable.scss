@@ -1,14 +1,6 @@
-/* Font style */
-$font-size: 1rem;
-$font-weight: 400;
-$line-height: 1.5;
-
 /* Border */
 $border: 1px solid transparent;
-$border-radius: .25rem;
-
-/* Padding */
-$padding: .375rem .75rem;
+$border-radius: .375rem;
 
 /* Colors */
 $color-primary : #626ED4;
@@ -53,10 +45,9 @@ $colors-light: (
 
 /* Break points */
 $breakpoints: (
-    xs: 0,
-    sm: 576px,
-    md: 768px,
-    lg: 992px,
-    xl: 1200px,
-    xxl: 1400px
+    sm: (576px, 540px),
+    md: (768px, 720px),
+    lg: (992px, 960px),
+    xl: (1200px, 1140px),
+    xxl: (1400px, 1320px)
 );

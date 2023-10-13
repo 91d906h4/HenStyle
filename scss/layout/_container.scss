@@ -1,0 +1,30 @@
+/* https://getbootstrap.jp/docs/5.3/layout/containers/ */
+
+@use "../variable" as *;
+
+@each $tag, $width in $breakpoints {
+    .container-#{$tag} {
+        /* Display */
+        display: block;
+
+        /* Box */
+        width: nth($width, 2);
+        margin: 0 auto;
+    }
+
+    @media (min-width: nth($width, 1)) {
+        .container {
+            width: nth($width, 2);
+        }
+    }
+
+    @media (max-width: nth($width, 1)) {
+        .container-#{$tag} {
+            width: 100%;
+        }
+    }
+}
+
+.container-fluid {
+    width: 100%;
+}
