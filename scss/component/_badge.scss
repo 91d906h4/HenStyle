@@ -1,0 +1,29 @@
+@use "../variable" as *;
+
+/* Basic badge style */
+.badge {
+    /* Disply */
+    display: inline-block;
+
+    /* Font */
+    font-size: .75rem;
+    line-height: 1;
+
+    /* Box */
+    border: $border;
+    padding: .35em .65em;
+
+    /* Border */
+    border-radius: $border-radius;
+
+    /* Color */
+    color: $color-light;
+    background-color: $color-secondary;
+}
+
+@each $name, $color in $colors {
+    /* Badge background color */
+    .badge-#{$name} {
+        background-color: $color;
+    }
+}

@@ -1,6 +1,7 @@
 @use "./reset.scss";
 @use "./variable" as *;
 
+@use "./component/badge";
 @use "./component/alert";
 @use "./component/button";
 

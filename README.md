@@ -10,6 +10,20 @@ Use the following command to compile the Sass files.
 npm run sass ./scss/henstyle.scss -o ./test/henstyle.css
 ```
 
+## Basic
+
+### Colors
+
+There are 8 colors in HenStyle.css.
+
+- ![#626ED4](https://via.placeholder.com/15/626ED4/000000?text=+) `Primary`
+- ![#575c62](https://via.placeholder.com/15/575c62/000000?text=+) `Secondary`
+- ![#2AA39A](https://via.placeholder.com/15/2AA39A/000000?text=+) `Success`
+- ![#EC4561](https://via.placeholder.com/15/EC4561/000000?text=+) `Danger`
+- ![#F8B425](https://via.placeholder.com/15/F8B425/000000?text=+) `Warning`
+- ![#38A5F8](https://via.placeholder.com/15/38A5F8/000000?text=+) `Info`
+- ![#f8f8fa](https://via.placeholder.com/15/f8f8fa/000000?text=+) `Light`
+- ![#343549](https://via.placeholder.com/15/343549/000000?text=+) `Dark`
 ## Usage
 
 ### Containers
@@ -64,3 +78,45 @@ Now we are going to build a grid with 6 rows and 3 elements with 1 columns, 2 co
 ```
 
 ---
+
+### Badge
+
+Use class `.badge` to build a badge.
+
+This class should be used with tag `<span></span`.
+
+#### Color
+
+Use `.badge-{color}` to specify the color of the badge.
+
+Default color is `secondary`.
+
+#### Example
+
+```html
+<button class="btn btn-primary">Cart <span class="badge badge-dnager">0</span></button>
+```
+
+---
+
+### Button
+
+Use class `.btn` to build a button.
+
+#### Color
+
+Use `.btn-{color}` to specify the color of the button.
+
+Use `.btn-outline-{color}` to build a outline button with color `color`.
+
+#### Size
+
+Use `.btn-lg` or `.btn-sm` to change the size of button.
+
+#### Example
+
+If you want to build a large blue button with outline style, you can use the following code.
+
+```html
+<button class="btn btn-outline-info btn-lg">Large Blue Button</button>
+```

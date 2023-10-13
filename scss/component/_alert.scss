@@ -18,8 +18,8 @@
     background-color: transparent;
 }
 
-/* Alert background color */
 @each $name, $color in $colors-light {
+    /* Alert background color */
     .alert-#{$name} {
         background-color: $color;
         color: #2b2f32;
