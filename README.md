@@ -7,5 +7,5 @@ This is a simple CSS framework biuld with Sass.
 Use the following command to compile the Sass files.
 
 ```sh
-npm run sass ./henstyle/henstyle.scss -o ./test/henstyle.css
+npm run sass ./scss/henstyle.scss -o ./test/henstyle.css
 ```

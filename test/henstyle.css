@@ -135,4 +135,11 @@ body {
   margin: 0;
 }
 
+* {
+  /* Set box-sizing to border-box */
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
 /*# sourceMappingURL=henstyle.css.map */
