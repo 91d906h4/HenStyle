@@ -9,18 +9,34 @@
 
 <body>
     <div class="container container-md">
+        <div class="navbar">
+            <div class="container container-fluid">
+                <a class="navbar-brand">Navbar</a> <button class="btn btn-outline-info">SS</button>
+            </div>
+        </div>
+
+        <h1>Navbar</h1>
+
+        <hr />
+
+        <h1>Button</h1>
+
         <button class="btn btn-primary" onclick="alert('asd');">asdasdasdasdasdasd</button>
-        <button class="btn btn-success">asdasdasdasdasdasd</button>
+        <button class="btn btn-success" disabled>asdasdasdasdasdasd</button>
         <button class="btn btn-danger">asdasdasdasdasdasd</button>
         <button class="btn btn-warning">asdasdasdasdasdasd</button>
         <button class="btn btn-info">asdasdasdasdasdasd <span class="badge">4</span></button>
         <button class="btn">asdasdasdasdasdasd</button>
         <button class="btn btn-outline-success">asdasdasdasdasdasd</button>
-        <button class="btn btn-outline-danger">asdasdasdasdasdasd</button>
+        <button class="btn btn-outline-danger" disabled>asdasdasdasdasdasd</button>
         <button class="btn btn-outline-warning">asdasdasdasdasdasd</button>
 
-        <button class="btn btn-outline-info btn-lg">asdasdasdasdasdasd</button>
+        <button class="btn btn-outline-info btn-lg" onclick="alert('asd');">asdasdasdasdasdasd</button>
         <button class="btn btn-outline-info btn-sm">asdasdasdasdasdasd</button>
+
+        <hr />
+
+        <h1>Alert</h1>
 
         <div class="alert alert-primary">A simple primary alert—check it out!</div>
         <div class="alert alert-success">A simple primary alert—check it out!</div>
@@ -28,19 +44,78 @@
         <div class="alert alert-warning">A simple primary alert—check it out!</div>
         <div class="alert alert-info">A simple primary alert—check it out!</div>
 
+        <hr />
+
+        <h1>Grid</h1>
+
         <div class="row">
             <div class="col-2">asd</div>
             <div class="col">asd</div>
             <div>asd</div>
         </div>
-        <div class="row">
-            <div>asd</div>
-            <div>asd</div>
-            <div>asd</div>
-            <div>asd</div>
+
+        <div class="row row-4">
+            <div style="background-color: aqua;">asd</div>
+            <div style="background-color: brown;">asd</div>
+            <div style="background-color: aqua;">asd</div>
+            <div style="background-color: brown;">asd</div>
         </div>
+
         <hr />
+
+        <h1>Badge</h1>
+
         <p>asdasd <span class="badge badge-danger">4</span></p>
+
+        <hr />
+
+        <h1>Card</h1>
+
+        <div class="card">
+            <div class="card-header">Header</div>
+            <img src="https://picsum.photos/286/180" />
+            <div class="card-body" style="width: 286px;">
+                <h5 class="card-title">Title</h5>
+                <div class="card-text">asda snadnoasdiaa das asd asd as asd asdasdasdas das ad asd a s das da s dasdsas</div>
+                <button class="btn btn-primary">GO!</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">Header</div>
+            <!-- <img src="https://picsum.photos/286/180" /> -->
+            <div class="card-body" style="width: 286px;">
+                <h5 class="card-title">Title</h5>
+                <div class="card-text">asda snadnoasdiaa das asd asd as asd asdasdasdas das ad asd a s das da s dasdsas</div>
+                <button class="btn btn-primary">GO!</button>
+            </div>
+        </div>
+
+        <div class="card card-info">
+            <div class="card-header">Header</div>
+            <!-- <img src="https://picsum.photos/286/180" /> -->
+            <div class="card-body" style="width: 286px;">
+                <h5 class="card-title">Title</h5>
+                <div class="card-text">asda snadnoasdiaa das asd asd as asd asdasdasdas das ad asd a s das da s dasdsas</div>
+                <button class="btn btn-danger">GO!</button>
+            </div>
+            <div class="card-footer">Footer</div>
+        </div>
+
+        <br />
+
+        <h1>Border</h1>
+
+        <div class="border border-top-none d-inline-block" style="height: 200px; width: 200px;">top</div>
+        <div class="border border-right-none d-inline-block" style="height: 200px; width: 200px;">right</div>
+        <div class="border border-bottom-none d-inline-block" style="height: 200px; width: 200px;">bottom</div>
+        <div class="border border-left-none d-inline-block bg-light-info" style="height: 200px; width: 200px;">left</div>
+
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
     </div>
 </body>
 

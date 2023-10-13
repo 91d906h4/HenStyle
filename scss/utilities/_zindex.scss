@@ -1,0 +1,14 @@
+/* Z-index */
+$zindexs: (
+    n1: -1,
+    0: 0,
+    1: 1,
+    2: 2,
+    3: 3
+);
+
+@each $level, $index in $zindexs {
+    .z-#{$level} {
+        z-index: $index;
+    }
+}

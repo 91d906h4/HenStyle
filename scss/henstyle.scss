@@ -1,23 +1,27 @@
 @use "./reset.scss";
 @use "./variable" as *;
 
+@use "./component/card";
 @use "./component/badge";
 @use "./component/alert";
 @use "./component/button";
+@use "./component/navbar";
 
 @use "./layout/grid";
 @use "./layout/container.scss";
 
-body {
-    margin: 0;
-}
+@use "./utilities/size";
+@use "./utilities/text";
+@use "./utilities/zindex";
+@use "./utilities/border";
+@use "./utilities/display";
+@use "./utilities/opacity";
+@use "./utilities/bgcolor";
+@use "./utilities/overflow";
+@use "./utilities/potitions";
+@use "./utilities/visibility";
 
 * {
-    /* Font */
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.5;
-
     /* Set box-sizing to border-box */
     box-sizing: border-box;
     -moz-box-sizing: border-box;

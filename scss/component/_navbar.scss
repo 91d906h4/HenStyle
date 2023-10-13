@@ -1,0 +1,19 @@
+@use "../variable" as *;
+
+.navbar {
+    /* Box */
+    padding: .5rem 0;
+
+    /* Color */
+    background-color: #F8F9FA;
+}
+
+.navbar-brand {
+    /* Font */
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.5;
+
+    /* Box */
+    margin: 0 1rem;
+}

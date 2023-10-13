@@ -1,0 +1,74 @@
+@use "../variable" as *;
+
+.card {
+    /* Disply */
+    display: inline-block;
+    vertical-align: top;
+
+    /* Font */
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+
+    /* Box */
+    border: 1px solid rgb(0, 0, 0, 0.17);
+
+    /* Border */
+    border-radius: $border-radius;
+    overflow: hidden;
+
+    /* Color */
+    color: $color-dark;
+    background-color: transparent;
+
+    /* Transition */
+    transition-duration: 350ms;
+}
+
+.card-header {
+    /* Box */
+    padding: .5rem 1rem;
+
+    /* Border */
+    border-bottom: 1px solid rgb(0, 0, 0, 0.17);
+
+    /* Color */
+    background-color: #21252908;
+}
+
+.card-footer {
+    /* Box */
+    padding: .5rem 1rem;
+
+    /* Border */
+    border-top: 1px solid rgb(0, 0, 0, 0.17);
+
+    /* Color */
+    background-color: #21252908;
+}
+
+.card-body {
+    padding: 1rem;
+
+    .card-title {
+        /* Font */
+        font-size: 1.25rem;
+
+        /* Box */
+        padding: 0;
+        margin: 0 0 .5rem 0;
+    }
+
+    .card-text {
+        /* Maring */
+        margin: 0 0 1rem 0;
+    }
+}
+
+@each $name, $color in $colors {
+    /* Card background color */
+    .card-#{$name} {
+        background-color: $color;
+        color: white;
+    }
+}

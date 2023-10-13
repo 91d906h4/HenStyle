@@ -1,0 +1,13 @@
+@use "../variable" as *;
+
+@each $index, $color in $colors {
+    .bg-#{$index} {
+        background-color: $color;
+    }
+}
+
+@each $index, $color in $colors-light {
+    .bg-light-#{$index} {
+        background-color: $color;
+    }
+}
