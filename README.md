@@ -1,3 +1,4 @@
+
 # HenStyle
 
 This is a simple CSS framework biuld with Sass.
@@ -24,7 +25,8 @@ There are 8 colors in HenStyle.css.
 - ![#38A5F8](https://via.placeholder.com/15/38A5F8/000000?text=+) `Info`
 - ![#f8f8fa](https://via.placeholder.com/15/f8f8fa/000000?text=+) `Light`
 - ![#343549](https://via.placeholder.com/15/343549/000000?text=+) `Dark`
-## Component
+
+---
 
 ### Containers
 
@@ -32,14 +34,14 @@ Use `.container` class to build the container.
 
 #### Setting
 
-| | Extra small<br /><576px | Small<br />≥576px | Mediums<br />≥768px | Large<br />≥992px | X-Large<br />≥1200px | XX-Large<br />≥1400px |
-| -- | -- | -- | -- | -- | -- | -- |
-| `.container-sm` | 100% | 540px | 720px | 920px | 1140px | 1320px |
-| `.container-md` | 100% | 100% | 720px | 920px | 1140px | 1320px |
-| `.container-lg` | 100% | 100% | 100% | 920px | 1140px | 1320px |
-| `.container-xl` | 100% | 100% | 100% | 100% | 1140px | 1320px |
-| `.container-xxl` | 100% | 100% | 100% | 100% | 100% | 1320px |
-| `.container-fluid` | 100% | 100% | 100% | 100% | 100% | 100% |
+|                    | Extra small<br /><576px | Small<br />≥576px | Mediums<br />≥768px | Large<br />≥992px | X-Large<br />≥1200px | XX-Large<br />≥1400px |
+| ------------------ | ----------------------- | ----------------- | ------------------- | ----------------- | -------------------- | --------------------- |
+| `.container-sm`    | 100%                    | 540px             | 720px               | 920px             | 1140px               | 1320px                |
+| `.container-md`    | 100%                    | 100%              | 720px               | 920px             | 1140px               | 1320px                |
+| `.container-lg`    | 100%                    | 100%              | 100%                | 920px             | 1140px               | 1320px                |
+| `.container-xl`    | 100%                    | 100%              | 100%                | 100%              | 1140px               | 1320px                |
+| `.container-xxl`   | 100%                    | 100%              | 100%                | 100%              | 100%                 | 1320px                |
+| `.container-fluid` | 100%                    | 100%              | 100%                | 100%              | 100%                 | 100%                  |
 
 #### Example
 
@@ -77,7 +79,7 @@ Now we are going to build a grid with 6 rows and 3 elements with 1 columns, 2 co
 </div>
 ```
 
----
+## Component
 
 ### Badge
 
@@ -120,3 +122,264 @@ If you want to build a large blue button with outline style, you can use the fol
 ```html
 <button class="btn btn-outline-info btn-lg">Large Blue Button</button>
 ```
+
+---
+
+### Alert
+
+Use class `.alert` to build a alert.
+
+#### Color
+
+Use `.alert-{color}` to specify the color of alert.
+
+#### Example
+
+```html
+<div class="alert alert-danger">Danger!</div>
+```
+
+---
+
+### Card
+
+Use class `.card` to build a card.
+
+You should use `.card` with `.card-body`, and the `.card-title` and `.card-text` inside.
+
+If you want to add a header or footer, just use `.card-header` and `.card-footer`.
+
+#### Color
+
+Use `.card-{color}` to specify the color of the card.
+
+#### Example
+
+```html
+<div class="card">
+    <div class="card-header">Header</div>
+    <img src="https://picsum.photos/286/180" />
+    <div class="card-body" style="width: 286px;">
+        <h5 class="card-title">Title</h5>
+        <div class="card-text">This is a demo card with header, footer, title, text and even an image inside.</div>
+        <button class="btn btn-primary">GO!</button>
+    </div>
+    <div class="card-header">Footer</div>
+</div>
+```
+
+---
+
+### Navbar
+
+Use class `.navbar` to build a navbar.
+
+You can use `.navbar` with `.container` together.
+
+If you want to add a brand, just use `.navbar-brad`.
+
+## Example
+
+```html
+<div class="navbar">
+    <div class="container container-fluid">
+        <a class="navbar-brand">My Navbar</a>
+    </div>
+</div>
+```
+
+## Utilities
+
+### Background Color
+
+Use class `.bg-{color}` and `.bg-light-{colot}` to specify the background colors.
+
+#### Example
+
+A 200x200 box with border and light blue background.
+
+```html
+<div class="border bg-light-info" style="height: 200px; width: 200px;">Box</div>
+```
+
+---
+
+### Border
+
+Use class `.border` to show the border around.
+
+You can also use `top`, `right`, `bottom`, or `left` to specify which side will show the border.
+
+If you want to disable the border, use `.border-none` to disable the border, or use `.border-top-none`, `.border-bottom-none`.
+
+#### Example
+
+A box without top border.
+
+```html
+<div class="border border-top-none" style="height: 200px; width: 200px;">Box</div>
+```
+
+---
+
+### Display
+
+Use class `.d-{value}` to set the display of elements.
+
+#### Values
+
+The following are the legal values.
+
+- `none`
+- `inline`
+- `inline-block`
+- `block`
+- `grid`
+- `inline-grid`
+- `table`
+- `table-cell`
+- `table-row`
+- `flex`
+- `inline-flex`
+
+#### Example
+
+```html
+<div class="d-flex">Flex</div>
+```
+
+---
+
+### Opacity
+
+Use class `.opacity-{value}` to specify the opacities of elements.
+
+#### Values
+
+The legal values are `25`, `50`, `75`, and `100`.
+
+#### Example
+
+```html
+<div class="opacity-25">...</div>
+<div class="opacity-50">...</div>
+<div class="opacity-75">...</div>
+<div class="opacity-100">...</div>
+```
+
+---
+
+### Overflow
+
+Use class `.overflow-{value}` to specify the behavior of elements when overflow occurs.
+
+You can also use `.overflow-x-{value}` and `.overflow-y-{value}`.
+
+#### Values
+
+The legal values are `auto`, `hidden`, `visible`, and `scroll`.
+
+#### Example
+
+```html
+<div class="overflow-auto">...</div>
+<div class="overflow-hidden">...</div>
+<div class="overflow-visible">...</div>
+<div class="overflow-scroll">...</div>
+
+<div class="overflow-x-auto">...</div>
+<div class="overflow-x-hidden">...</div>
+<div class="overflow-x-visible">...</div>
+<div class="overflow-x-scroll">...</div>
+
+<div class="overflow-y-auto">...</div>
+<div class="overflow-y-hidden">...</div>
+<div class="overflow-y-visible">...</div>
+<div class="overflow-y-scroll">...</div>
+```
+
+---
+
+### Position
+
+Use class `.position-{value}` to specify the position of elemetns.
+
+#### Values
+
+The legal values are `static`, `relative`, `absolute`, `fixed`, and `sticky`.
+
+#### Example
+
+```html
+<div class="position-static">...</div>
+<div class="position-relative">...</div>
+<div class="position-absolute">...</div>
+<div class="position-fixed">...</div>
+<div class="position-sticky">...</div>
+```
+
+---
+
+### Width & Height
+
+Use class `.w-{value}` and `.h-{value}` to specify the width and height of elements.
+
+#### Valeus
+
+The legal values are `25`, `50`, `75`, `100`, and `auto`.
+
+#### Example
+
+```html
+<div class="w-25">Width 25%</div>
+<div class="w-50">Width 50%</div>
+<div class="w-75">Width 75%</div>
+<div class="w-100">Width 100%</div>
+<div class="w-auto">Width auto</div>
+
+<div class="h-25">Height 25%</div>
+<div class="h-50">Height50%</div>
+<div class="h-75">Height 75%</div>
+<div class="h-100">Height 100%</div>
+<div class="h-auto">Height auto</div>
+```
+
+---
+
+### Text
+
+#### Aligen
+
+Use class `.text-{value}` to specify the text-align of elements.
+
+The value can be `start`, `center`, or `end`.
+
+#### Word Break
+
+Use class `.text-break` or `.text-break-none` to specify if the word should be break.
+
+#### Text Case
+
+Use class `.text-upper`, `.text-lower` or `.text-capitalize` to specify the text case of elemetns.
+
+#### Decoration
+
+Use class `.text-decoration-{value}` to specify the decoration of elements.
+
+The value can be `none`, `underline`, or `line-through`.
+
+---
+
+### Visibility
+
+Use class `.visible` or `.invisible` to specify whether the element can be seen or not.
+
+---
+
+# Z-Index
+
+Use class `.z-{value}` to specify the z-index of elemetns.
+
+#### Values
+
+The value can be `n1` (-1), `0`, `1`, `2`, or `3`.
