@@ -4,6 +4,7 @@
     /* Disply */
     display: inline-block;
     vertical-align: top;
+    overflow: hidden;
 
     /* Font */
     font-size: 1rem;
@@ -15,7 +16,6 @@
 
     /* Border */
     border-radius: $border-radius;
-    overflow: hidden;
 
     /* Color */
     color: $color-dark;

@@ -125,6 +125,7 @@ table {
   /* Disply */
   display: inline-block;
   vertical-align: top;
+  overflow: hidden;
   /* Font */
   font-size: 1rem;
   font-weight: 400;
@@ -133,7 +134,6 @@ table {
   border: 1px solid rgba(0, 0, 0, 0.17);
   /* Border */
   border-radius: 0.375rem;
-  overflow: hidden;
   /* Color */
   color: #343549;
   background-color: transparent;
@@ -212,7 +212,7 @@ table {
 
 /* Card background color */
 .card-light {
-  background-color: #d8d8d8;
+  background-color: #F8F9FA;
   color: white;
 }
 
@@ -235,7 +235,7 @@ table {
   /* Border */
   border-radius: 0.375rem;
   /* Color */
-  color: #d8d8d8;
+  color: #F8F9FA;
   background-color: #575c62;
 }
 
@@ -271,7 +271,7 @@ table {
 
 /* Badge background color */
 .badge-light {
-  background-color: #d8d8d8;
+  background-color: #F8F9FA;
 }
 
 /* Badge background color */
@@ -373,7 +373,7 @@ table {
 }
 
 .footer-light {
-  background-color: #d8d8d8;
+  background-color: #F8F9FA;
 }
 
 .footer-dark {
@@ -520,17 +520,17 @@ table {
 
 /* Button background color */
 .btn-light {
-  background-color: #d8d8d8;
+  background-color: #F8F9FA;
   color: white;
 }
 
 /* Outline button */
 .btn-outline-light {
-  border-color: #d8d8d8;
-  color: #d8d8d8;
+  border-color: #F8F9FA;
+  color: #F8F9FA;
 }
 .btn-outline-light:hover {
-  background-color: #d8d8d8;
+  background-color: #F8F9FA;
   color: white;
 }
 
@@ -677,7 +677,6 @@ table {
   grid-column: span 12;
 }
 
-/* https://getbootstrap.jp/docs/5.3/layout/containers/ */
 .container-sm {
   /* Display */
   display: block;
@@ -1483,7 +1482,7 @@ table {
 }
 
 .bg-light {
-  background-color: #d8d8d8;
+  background-color: #F8F9FA;
 }
 
 .bg-dark {

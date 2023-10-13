@@ -1,5 +1,3 @@
-/* https://getbootstrap.jp/docs/5.3/layout/containers/ */
-
 @use "../variable" as *;
 
 @each $tag, $width in $breakpoints {
