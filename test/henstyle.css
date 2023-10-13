@@ -850,42 +850,40 @@ table {
   z-index: 3;
 }
 
-/* Border */
 .border {
   border: 1px solid rgba(0, 0, 0, 0.17);
+}
+
+.border-none {
+  border: none;
 }
 
 .border-top {
   border-top: 1px solid rgba(0, 0, 0, 0.17);
 }
 
-.border-right {
-  border-right: 1px solid rgba(0, 0, 0, 0.17);
-}
-
-.border-bottom {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.17);
-}
-
-.border-left {
-  border-left: 1px solid rgba(0, 0, 0, 0.17);
-}
-
-/* Clear border */
-.border-none {
-  border: none;
-}
-
 .border-top-none {
   border-top: none;
+}
+
+.border-right {
+  border-right: 1px solid rgba(0, 0, 0, 0.17);
 }
 
 .border-right-none {
   border-right: none;
 }
 
+.border-bottom {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.17);
+}
+
 .border-bottom-none {
   border-bottom: none;
+}
+
+.border-left {
+  border-left: 1px solid rgba(0, 0, 0, 0.17);
 }
 
 .border-left-none {

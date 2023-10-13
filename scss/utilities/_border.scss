@@ -1,43 +1,12 @@
-$border: 1px solid rgb(0, 0, 0, 0.17);
+$border-style: 1px solid rgb(0, 0, 0, 0.17);
+$borders: border, border-top, border-right, border-bottom, border-left;
 
-/* Border */
-.border {
-    border: $border;
-}
+@each $border in $borders {
+    .#{$border} {
+        #{$border}: $border-style;
+    }
 
-.border-top {
-    border-top: $border;
-}
-
-.border-right {
-    border-right: $border;
-}
-
-.border-bottom {
-    border-bottom: $border;
-}
-
-.border-left {
-    border-left: $border;
-}
-
-/* Clear border */
-.border-none {
-    border: none;
-}
-
-.border-top-none {
-    border-top: none;
-}
-
-.border-right-none {
-    border-right: none;
-}
-
-.border-bottom-none {
-    border-bottom: none;
-}
-
-.border-left-none {
-    border-left: none;
+    .#{$border}-none {
+        #{$border}: none;
+    }
 }
