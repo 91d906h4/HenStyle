@@ -345,6 +345,7 @@ table {
 
 .footer {
   /* Box */
+  width: 100%;
   padding: 1rem;
 }
 
@@ -802,47 +803,6 @@ table {
   padding: 0 1rem;
 }
 
-/* Width & Height */
-.w-25 {
-  width: 25%;
-}
-
-.h-25 {
-  height: 25%;
-}
-
-.w-50 {
-  width: 50%;
-}
-
-.h-50 {
-  height: 50%;
-}
-
-.w-75 {
-  width: 75%;
-}
-
-.h-75 {
-  height: 75%;
-}
-
-.w-100 {
-  width: 100%;
-}
-
-.h-100 {
-  height: 100%;
-}
-
-.w-auto {
-  width: auto;
-}
-
-.h-auto {
-  height: auto;
-}
-
 /* Margin & Padding */
 /* Margin */
 .m-0 {
@@ -900,6 +860,23 @@ table {
 
 .py-0 {
   padding: 0 0 !important;
+}
+
+/* Others */
+.t-0 {
+  top: 0 !important;
+}
+
+.b-0 {
+  bottom: 0 !important;
+}
+
+.r-0 {
+  right: 0 !important;
+}
+
+.l-0 {
+  left: 0 !important;
 }
 
 /* Margin */
@@ -960,6 +937,23 @@ table {
   padding: 0.25rem 0 !important;
 }
 
+/* Others */
+.t-1 {
+  top: 0.25rem !important;
+}
+
+.b-1 {
+  bottom: 0.25rem !important;
+}
+
+.r-1 {
+  right: 0.25rem !important;
+}
+
+.l-1 {
+  left: 0.25rem !important;
+}
+
 /* Margin */
 .m-2 {
   margin: 0.5rem !important;
@@ -1016,6 +1010,23 @@ table {
 
 .py-2 {
   padding: 0.5rem 0 !important;
+}
+
+/* Others */
+.t-2 {
+  top: 0.5rem !important;
+}
+
+.b-2 {
+  bottom: 0.5rem !important;
+}
+
+.r-2 {
+  right: 0.5rem !important;
+}
+
+.l-2 {
+  left: 0.5rem !important;
 }
 
 /* Margin */
@@ -1076,6 +1087,23 @@ table {
   padding: 1rem 0 !important;
 }
 
+/* Others */
+.t-3 {
+  top: 1rem !important;
+}
+
+.b-3 {
+  bottom: 1rem !important;
+}
+
+.r-3 {
+  right: 1rem !important;
+}
+
+.l-3 {
+  left: 1rem !important;
+}
+
 /* Margin */
 .m-4 {
   margin: 1.5rem !important;
@@ -1132,6 +1160,23 @@ table {
 
 .py-4 {
   padding: 1.5rem 0 !important;
+}
+
+/* Others */
+.t-4 {
+  top: 1.5rem !important;
+}
+
+.b-4 {
+  bottom: 1.5rem !important;
+}
+
+.r-4 {
+  right: 1.5rem !important;
+}
+
+.l-4 {
+  left: 1.5rem !important;
 }
 
 /* Margin */
@@ -1192,6 +1237,23 @@ table {
   padding: 2rem 0 !important;
 }
 
+/* Others */
+.t-5 {
+  top: 2rem !important;
+}
+
+.b-5 {
+  bottom: 2rem !important;
+}
+
+.r-5 {
+  right: 2rem !important;
+}
+
+.l-5 {
+  left: 2rem !important;
+}
+
 /* Margin */
 .m-6 {
   margin: 3rem !important;
@@ -1250,6 +1312,23 @@ table {
   padding: 3rem 0 !important;
 }
 
+/* Others */
+.t-6 {
+  top: 3rem !important;
+}
+
+.b-6 {
+  bottom: 3rem !important;
+}
+
+.r-6 {
+  right: 3rem !important;
+}
+
+.l-6 {
+  left: 3rem !important;
+}
+
 /* Margin */
 .m-auto {
   margin: auto !important;
@@ -1306,6 +1385,64 @@ table {
 
 .py-auto {
   padding: auto 0 !important;
+}
+
+/* Others */
+.t-auto {
+  top: auto !important;
+}
+
+.b-auto {
+  bottom: auto !important;
+}
+
+.r-auto {
+  right: auto !important;
+}
+
+.l-auto {
+  left: auto !important;
+}
+
+/* Width & Height */
+.w-25 {
+  width: 25%;
+}
+
+.h-25 {
+  height: 25%;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.h-50 {
+  height: 50%;
+}
+
+.w-75 {
+  width: 75%;
+}
+
+.h-75 {
+  height: 75%;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.h-100 {
+  height: 100%;
+}
+
+.w-auto {
+  width: auto;
+}
+
+.h-auto {
+  height: auto;
 }
 
 /* Text align */
@@ -1376,6 +1513,10 @@ table {
 
 .z-3 {
   z-index: 3;
+}
+
+.z-99 {
+  z-index: 99;
 }
 
 .border {

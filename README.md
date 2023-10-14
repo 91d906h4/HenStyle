@@ -60,7 +60,7 @@ Use `.row-{number}` to specify how many number of rows will be in the elemetnt. 
 
 Use `.col-{number}` to specify how many columns will this element takes. Then range of `number` is also from 1 to 12 (`.col` is same as `.col-1`).
 
-Use `.col-{value}` to specify when to span all the lines. For example, if you use class `.col-md`, this column will span all the lines (width 100%) when the width of sreen is smaller than `768px`.
+Use `.col-{breakpoint}` to specify when to span all the lines. For example, if you use class `.col-md`, this column will span all the lines (width 100%) when the width of sreen is smaller than `768px`.
 
 #### Example
 
@@ -407,4 +407,4 @@ Use class `.z-{value}` to specify the z-index of elemetns.
 
 #### Values
 
-The value can be `n1` (-1), `0`, `1`, `2`, or `3`.
+The value can be `n1` (-1), `0`, `1`, `2`, `3`, and `99`.
