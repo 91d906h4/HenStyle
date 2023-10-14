@@ -1,14 +1,10 @@
 /* Text align */
-.text-start {
-    text-align: start;
-}
+$aligns: start, center, end;
 
-.text-center {
-    text-align: center;
-}
-
-.text-end {
-    text-align: end;
+@each $align in $aligns {
+    .text-#{$align} {
+        text-align: $align;
+    }
 }
 
 /* Text break */
@@ -22,27 +18,23 @@
 }
 
 /* Text case */
-.text-upper {
-    text-transform: uppercase;
-}
+$cases: (
+    upper: uppercase,
+    lower: lowercase,
+    capitalize: capitalize
+);
 
-.text-lower {
-    text-transform: lowercase;
-}
-
-.text-capitalize {
-    text-transform: capitalize;
+@each $index, $case in $cases {
+    .text-#{$index} {
+        text-transform: $case;
+    }
 }
 
 /* Text decoration */
-.text-decoration-none {
-    text-decoration: none;
-}
+$decorations: none, underline, line-through;
 
-.text-decoration-underline {
-    text-decoration: underline;
-}
-
-.text-decoration-line-through {
-    text-decoration: line-through;
+@each $decoration in $decorations {
+    .text-decoration-#{$decoration} {
+        text-decoration: $decoration;
+    }
 }
