@@ -1,6 +1,6 @@
 @use "../variable" as *;
 
-@each $tag, $width in $breakpoints {
+@each $tag, $width in $container-breakpoints {
     .container-#{$tag} {
         /* Display */
         display: block;

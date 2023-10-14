@@ -60,6 +60,8 @@ Use `.row-{number}` to specify how many number of rows will be in the elemetnt. 
 
 Use `.col-{number}` to specify how many columns will this element takes. Then range of `number` is also from 1 to 12 (`.col` is same as `.col-1`).
 
+Use `.col-{value}` to specify when to span all the lines. For example, if you use class `.col-md`, this column will span all the lines (width 100%) when the width of sreen is smaller than `768px`.
+
 #### Example
 
 Now we are going to build a grid with 6 rows and 3 elements with 1 columns, 2 columns and 3 columns, respectively.

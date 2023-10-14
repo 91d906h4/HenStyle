@@ -44,10 +44,18 @@ $colors-light: (
 );
 
 /* Break points */
-$breakpoints: (
+$container-breakpoints: (
     sm: (576px, 540px),
     md: (768px, 720px),
     lg: (992px, 960px),
     xl: (1200px, 1140px),
     xxl: (1400px, 1320px)
+);
+
+$breakpoints: (
+    sm: 576px,
+    md: 768px,
+    lg: 992px,
+    xl: 1200px,
+    xxl: 1400px
 );
