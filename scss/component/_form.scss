@@ -1,0 +1,40 @@
+@use "../variable" as *;
+
+.input {
+    /* Box */
+    width: 100%;
+    padding: .5rem 1rem;
+
+    /* Font */
+    font-size: 1rem;
+
+    /* Box */
+    border: $border-light;
+
+    /* Border */
+    border-radius: $border-radius;
+}
+
+.select {
+    /* Box */
+    width: 100%;
+    padding: .5rem 1rem;
+
+    /* Font */
+    font-size: 1rem;
+
+    /* Box */
+    border: $border-light;
+
+    /* Border */
+    border-radius: $border-radius;
+}
+
+.range {
+    /* Box */
+    width: 100%;
+    padding: .5rem 1rem;
+
+    /* Font */
+    font-size: 1rem;
+}

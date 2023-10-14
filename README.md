@@ -129,6 +129,37 @@ The following are the legal values.
 | `6`    | 3rem    |
 | `auto` | auto    |
 
+## Form
+
+### Input
+
+Use class `.input` to change the defualt style.
+
+#### Exmaple
+
+```html
+<input type="input" class="input" />
+```
+
+### Select
+
+Use class `.select` to change the defualt style.
+
+#### Exmaple
+
+```html
+<input type="select" class="select" />
+```
+
+### Range
+
+Use class `.range` to change the defualt style.
+
+#### Exmaple
+
+```html
+<input type="range" class="range" />
+```
 
 ## Component
 
