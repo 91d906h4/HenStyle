@@ -4,10 +4,8 @@
     justify-content: center;
 
     /* Grid */
-    grid-template-columns: repeat(12, 1fr);
-
-    /* Grid */
     gap: 1rem 1rem;
+    grid-template-columns: repeat(12, 1fr);
 }
 
 .col {
