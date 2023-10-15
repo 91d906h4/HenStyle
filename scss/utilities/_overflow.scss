@@ -1,20 +1,15 @@
-$overflows: (
-    auto: auto,
-    hidden: hidden,
-    visible: visible,
-    scroll: scroll
-);
+$overflows: auto, hidden, visible, scroll;
 
-@each $index, $overflow in $overflows {
-    .overflow-#{$index} {
+@each $overflow in $overflows {
+    .overflow-#{$overflow} {
         overflow: $overflow;
     }
 
-    .overflow-x-#{index} {
+    .overflow-x-#{overflow} {
         overflow-x: $overflow;
     }
 
-    .overflow-y-#{index} {
+    .overflow-y-#{overflow} {
         overflow-y: $overflow;
     }
 }

@@ -1724,11 +1724,11 @@ table {
   overflow: auto;
 }
 
-.overflow-x-index {
+.overflow-x-overflow {
   overflow-x: auto;
 }
 
-.overflow-y-index {
+.overflow-y-overflow {
   overflow-y: auto;
 }
 
@@ -1736,11 +1736,11 @@ table {
   overflow: hidden;
 }
 
-.overflow-x-index {
+.overflow-x-overflow {
   overflow-x: hidden;
 }
 
-.overflow-y-index {
+.overflow-y-overflow {
   overflow-y: hidden;
 }
 
@@ -1748,11 +1748,11 @@ table {
   overflow: visible;
 }
 
-.overflow-x-index {
+.overflow-x-overflow {
   overflow-x: visible;
 }
 
-.overflow-y-index {
+.overflow-y-overflow {
   overflow-y: visible;
 }
 
@@ -1760,11 +1760,11 @@ table {
   overflow: scroll;
 }
 
-.overflow-x-index {
+.overflow-x-overflow {
   overflow-x: scroll;
 }
 
-.overflow-y-index {
+.overflow-y-overflow {
   overflow-y: scroll;
 }
 

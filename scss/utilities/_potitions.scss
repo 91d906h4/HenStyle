@@ -1,13 +1,7 @@
-$positions: (
-    static: static,
-    relative: relative,
-    absolute: absolute,
-    fixed: fixed,
-    sticky: sticky,
-);
+$positions: static, relative, absolute, fixed, sticky;
 
-@each $index, $position in $positions {
-    .position-#{$index} {
+@each $position in $positions {
+    .position-#{$position} {
         position: $position;
     }
 } 

@@ -1,19 +1,7 @@
-$displays: (
-    none: none,
-    inline: inline,
-    inline-block: inline-block,
-    block: block,
-    grid: grid,
-    inline-grid: inline-grid,
-    table: table,
-    table-cell: table-cell,
-    table-row: table-row,
-    flex: flex,
-    inline-flex: inline-flex
-);
+$displays: none, inline, inline-block, block, grid, inline-grid, table, table-cell, table-row, flex, inline-flex;
 
-@each $index, $display in $displays {
-    .d-#{$index} {
+@each $display in $displays {
+    .d-#{$display} {
         display: $display;
     }
 }
