@@ -1,5 +1,7 @@
 @use "../variable" as *;
 
+$border: 1px solid rgb(0, 0, 0, 0.17);
+
 .card {
     /* Disply */
     display: inline-block;
@@ -30,7 +32,7 @@
     padding: .5rem 1rem;
 
     /* Border */
-    border-bottom: 1px solid rgb(0, 0, 0, 0.17);
+    border-bottom: $border;
 
     /* Color */
     background-color: #21252908;
@@ -41,7 +43,7 @@
     padding: .5rem 1rem;
 
     /* Border */
-    border-top: 1px solid rgb(0, 0, 0, 0.17);
+    border-top: $border;
 
     /* Color */
     background-color: #21252908;
