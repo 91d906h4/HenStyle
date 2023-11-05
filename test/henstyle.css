@@ -92,7 +92,7 @@ section {
 }
 
 body {
-  line-height: 1.5;
+  line-height: 1;
 }
 
 ol,
@@ -226,10 +226,9 @@ table {
   /* Box */
   width: 100%;
   padding: 0.5rem 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.17);
   /* Font */
   font-size: 1rem;
-  /* Box */
-  border: 1px solid rgba(0, 0, 0, 0.17);
   /* Border */
   border-radius: 0.375rem;
 }
@@ -238,10 +237,10 @@ table {
   /* Box */
   width: 100%;
   padding: 0.5rem 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.17);
+  cursor: pointer;
   /* Font */
   font-size: 1rem;
-  /* Box */
-  border: 1px solid rgba(0, 0, 0, 0.17);
   /* Border */
   border-radius: 0.375rem;
 }
@@ -1801,6 +1800,8 @@ table {
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
+  /* Font */
+  line-height: 1.5;
   /* Focus style */
 }
 *:focus {

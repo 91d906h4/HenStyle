@@ -4,12 +4,10 @@
     /* Box */
     width: 100%;
     padding: .5rem 1rem;
+    border: $border-light;
 
     /* Font */
     font-size: 1rem;
-
-    /* Box */
-    border: $border-light;
 
     /* Border */
     border-radius: $border-radius;
@@ -19,12 +17,12 @@
     /* Box */
     width: 100%;
     padding: .5rem 1rem;
+    border: $border-light;
+
+    cursor: pointer;
 
     /* Font */
     font-size: 1rem;
-
-    /* Box */
-    border: $border-light;
 
     /* Border */
     border-radius: $border-radius;
